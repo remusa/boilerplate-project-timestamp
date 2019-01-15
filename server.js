@@ -33,7 +33,6 @@ app.get('/api/timestamp/', (req, res) => {
 
 app.get('/api/timestamp/:date_string', (req, res) => {
     const date_string = req.params.date_string
-    console.log(date_string)
 
     let date
     let response
